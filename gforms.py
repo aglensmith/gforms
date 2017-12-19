@@ -33,8 +33,8 @@ fields = {
     '3333333333':'value2'
 }
 
-# inti form
-cool_form = Form('1VQ8CYSuxyb01jKdp6zZGxtWct4RWdqjzC7_2-VddaIA', fields).post()
+# init form (form id, fields)
+cool_form = Form('1VQ8CYSuxyb01jKdp6zZGxtRWdqjzC7_2-VddaIA', fields).post()
 
 # post with requests
 cool_form.post()
